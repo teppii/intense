@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;1,100&family=Raleway:ital,wght@0,400;0,700;1,700&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Poppins', sans-serif;
+	color: #1B1B1B;
+}
+h1,h2,h3,a{
+	font-family: 'Raleway', sans-serif;
+	color: #1B1B1B;
+}
+.container{
+	width: 1200px;
+	margin: 0 auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+.col-1{
+	width: 8.33%;
+}
+.col-2{
+	width: 16.66%;
+}
+.col-3{
+	width: 25%;
+}
+.col-4{
+	width: 33.33%;
+}
+.col-5{
+	width: 41.66%;
+}
+.col-6{
+	width: 50%;
+}
+.col-7{
+	width: 58.33%;
+}
+.col-8{
+	width: 66.66%;
+}
+.col-9{
+	width: 75%;
+}
+.col-10{
+	width: 83.33%;
+}
+.col-11{
+	width: 91.66%;
+}
+.col-12{
+	width: 100%
+}
+.p-1{
+	padding: 4px;
+}
+.p-10{
+	padding: 40px
+}
+.py-4{
+	padding: 16px 0 
+}
+.py-6{
+	padding: 24px 0
+}
+.py-10{
+	padding: 40px 0
+}
+.py-12{
+	padding: 48px 0
+}
+.py-14{
+	padding: 56px 0
+}
+.px-4{
+	padding: 0 12px
+}
+.px-8{
+	padding: 0 32px
+}
+.px-10{
+	padding: 0 40px;
+}
+.pb-15{
+	padding-bottom: 60px;
+}
+.mt-4{
+	margin-top: 16px;
+}
+.mt-20{
+    margin-top: 80px	
+}
+.mb-3{
+	margin-bottom: 12px;
+}
+.mx-10{
+	margin: 0 40px;
+}
+.mx-8{
+	margin: 0 32px;
+}
+.pr-20{
+	padding-right: 80px;
+}
+.pr-10{
+	padding-right: 40px;
+}
+.pl-10{
+	padding-left: 40px;
+}
+.pl-15{
+	padding-left: 60px;
+}
+.pl-18{
+	padding-left: 72px;
+}
+.pl-20{
+	padding-left: 80px;
+}
+.pt-10{
+	padding-top: 40px;
+}
+.pt-8{
+	padding-top: 32px;
+}
+.pt-6{
+	padding-top: 24px;
+}
+.text-c{
+	text-align: center
+}
+.text-r{
+	text-align: right
+}
+.align-i-center{
+	align-items: center;
+}
+.justify-c-center{
+	justify-content: center
+}
+.justify-c-flexend{
+	justify-content: flex-end;
+}
+.align-s-center{
+	align-self: center
+}
+.align-s-top{
+	align-self: flex-start;
+}
+.align-s-bot{
+	align-self: flex-end;
+}
+.justify-c-sb{
+	justify-content:  space-between;
+}
+.btn-1{
+	padding: 10px 20px;
+	text-decoration: none;
+	border-radius: 20px;
+	background: #FE6B6B;
+}
+.btn-1:hover{
+	background: #FF272A;
+}
+.icon{
+	padding:0 10px;
+}
